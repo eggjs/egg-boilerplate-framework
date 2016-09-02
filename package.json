@@ -1,0 +1,26 @@
+{
+  "name": "egg-boilerplate-framework",
+  "version": "1.0.0",
+  "description": "boilerplate for egg framework",
+  "scripts": {
+    "autod": "autod",
+    "ci": "npm run test",
+    "test": "npm run lint",
+    "lint": "eslint bin lib test index.js boilerplate"
+  },
+  "homepage": "https://github.com/eggjs/egg-boilerplate-framework",
+  "bugs": "https://github.com/eggjs/egg/issues",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eggjs/egg-boilerplate-framework.git"
+  },
+  "author": "TZ <atian25@qq.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "eslint": "^3.4.0",
+    "eslint-config-egg": "^3.1.0",
+    "intelli-espower-loader": "^1.0.1",
+    "power-assert": "^1.4.1"
+  }
+}
