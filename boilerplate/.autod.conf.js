@@ -3,14 +3,15 @@
 module.exports = {
   write: true,
   prefix: '^',
-   test: [
-     'test',
-     'benchmark',
-   ],
+  test: [
+    'test',
+    'benchmark',
+  ],
   dep: [
     'egg-view-nunjucks',
   ],
   devdep: [
+    'egg',
     'egg-ci',
     'egg-bin',
     'autod',
@@ -25,5 +26,6 @@ module.exports = {
     './test/fixtures',
     './dist',
   ],
+  registry: 'https://r.cnpmjs.org',
 };
 

@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "{{description}}",
   "dependencies": {
-    "egg": "^0.5.0",
-    "egg-view-nunjucks": "^0.6.0",
-    "moment": "^2.16.0"
+    "egg-view-nunjucks": "^0.6.0"
   },
   "devDependencies": {
     "autod": "^2",
+    "egg": "^0.5.0",
     "egg-bin": "^1",
     "egg-ci": "^1",
     "egg-mock": "^1",
