@@ -11,7 +11,7 @@ module.exports = app => (
     }
 
     * get(id) {
-      return { id, name: 'egg' };
+      return { id, name: this.config.key };
     }
   }
 );
