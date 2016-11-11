@@ -1,6 +1,5 @@
 'use strict';
 
-const path = require('path');
 const request = require('supertest');
 const mm = require('egg-mock');
 
@@ -9,7 +8,7 @@ describe('test/framework/view.test.js', () => {
   before(() => {
     app = mm.app({
       baseDir: 'example',
-      customEgg: path.join(__dirname, '../../'),
+      customEgg: true,
     });
     return app.ready();
   });
@@ -21,7 +20,7 @@ describe('test/framework/view.test.js', () => {
   it('should GET /', () => {
     return request(app.callback())
     .get('/')
-    .expect('hi, egg')
+    .expect('hi, framework-example_123456')
     .expect(200);
   });
 });

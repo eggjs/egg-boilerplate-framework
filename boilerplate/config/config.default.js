@@ -4,7 +4,7 @@ module.exports = appInfo => {
   const exports = {};
 
   exports.account = {
-    key: 'abc',
+    key: appInfo.name + '_123456',
   };
 
   return exports;
