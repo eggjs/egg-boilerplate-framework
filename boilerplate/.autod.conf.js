@@ -8,10 +8,10 @@ module.exports = {
     'benchmark',
   ],
   dep: [
+    'egg',
     'egg-view-nunjucks',
   ],
   devdep: [
-    'egg',
     'egg-ci',
     'egg-bin',
     'autod',

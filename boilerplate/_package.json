@@ -3,20 +3,21 @@
   "version": "1.0.0",
   "description": "{{description}}",
   "dependencies": {
+    "egg": "^0.5.0",
     "egg-view-nunjucks": "^0.6.0"
   },
   "devDependencies": {
-    "autod": "^2",
-    "egg": "^0.5.0",
-    "egg-bin": "^1",
-    "egg-ci": "^1",
-    "egg-mock": "^1",
-    "eslint": "^3",
-    "eslint-config-egg": "^3",
+    "autod": "^2.7.1",
     "cheerio": "^0.22.0",
-    "intelli-espower-loader": "^1",
-    "power-assert": "^1",
-    "supertest": "^2"
+    "egg-bin": "^1.7.0",
+    "egg-ci": "^1.1.0",
+    "egg-mock": "^1.2.0",
+    "eslint": "^3.10.2",
+    "eslint-config-egg": "^3.2.0",
+    "intelli-espower-loader": "^1.0.1",
+    "power-assert": "^1.4.2",
+    "supertest": "^2.0.1",
+    "webstorm-disable-index": "^1.0.11"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -30,7 +31,7 @@
     "autod": "autod"
   },
   "ci": {
-    "version": "4, 6"
+    "version": "4, 6, 7"
   },
   "repository": {
     "type": "git",
