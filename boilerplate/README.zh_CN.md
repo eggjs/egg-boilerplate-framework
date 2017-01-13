@@ -2,14 +2,14 @@
 
 {{description}}
 
-## QuickStart
+## 快速入门
 
 ```bash
 $ npm install
 $ npm test
 ```
 
-publish your framework to npm, then change app's dependencies:
+在应用中声明使用框架：
 
 ```js
 // {app_root}/index.js
@@ -20,7 +20,10 @@ require('{{name}}').startCluster({
 
 ```
 
-## Questions & Suggestions
+## 提问交流
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
 
+## License
+
+[MIT](LICENSE)

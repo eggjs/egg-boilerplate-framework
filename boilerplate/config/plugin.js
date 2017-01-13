@@ -1,9 +1,8 @@
 'use strict';
 
-exports.static = true;
-
-exports.view = {
-  enable: true,
-  package: 'egg-view-nunjucks',
-};
+// add you build-in plugin here, example:
+// exports.view = {
+//   enable: true,
+//   package: 'egg-view-nunjucks',
+// };
 

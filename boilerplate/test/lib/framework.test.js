@@ -3,7 +3,7 @@
 const request = require('supertest');
 const mm = require('egg-mock');
 
-describe('test/framework/view.test.js', () => {
+describe('test/lib/framework.test.js', () => {
   let app;
   before(() => {
     app = mm.app({
@@ -20,7 +20,7 @@ describe('test/framework/view.test.js', () => {
   it('should GET /', () => {
     return request(app.callback())
     .get('/')
-    .expect('hi, framework-example_123456')
+    .expect('framework-example_123456')
     .expect(200);
   });
 });

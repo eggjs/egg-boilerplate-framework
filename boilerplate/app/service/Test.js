@@ -2,12 +2,12 @@
 
 module.exports = app => (
   /**
-   * Account Service
+   * Test Service
    */
-  class Account extends app.Service {
+  class Test extends app.Service {
     constructor(ctx) {
       super(ctx);
-      this.config = this.app.config.account;
+      this.config = this.app.config.test;
     }
 
     * get(id) {
