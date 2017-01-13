@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = appInfo => {
-  const exports = {};
+  const config = {};
 
-  exports.account = {
+  config.account = {
     key: appInfo.name + '_123456',
   };
 
-  return exports;
+  return config;
 };
