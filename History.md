@@ -1,4 +1,10 @@
 
+1.2.0 / 2017-01-16
+==================
+
+  * feat: remove node 4.x support && remove view showcase (#7)
+  * test: update egg-bin and adjust assert (#6)
+
 1.1.1 / 2016-11-21
 ==================
 
