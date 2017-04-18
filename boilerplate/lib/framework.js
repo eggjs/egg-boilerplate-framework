@@ -16,7 +16,7 @@ class Agent extends egg.Agent {
   }
 }
 
-module.exports = Object.assign({}, egg, {
+module.exports = Object.assign(egg, {
   Application,
   Agent,
 });
