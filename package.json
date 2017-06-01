@@ -10,7 +10,7 @@
     "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
     "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
     "build": "egg-init dist --force --silent --template=./",
-    "install-deps": "cd dist && ../node_modules/.bin/autod && ../node_modules/.bin/npminstall"
+    "install-deps": "cd dist && ../node_modules/.bin/npminstall autod-egg && ../node_modules/.bin/autod && ../node_modules/.bin/npminstall"
   },
   "homepage": "https://github.com/eggjs/egg-boilerplate-framework",
   "bugs": "https://github.com/eggjs/egg/issues",
@@ -32,6 +32,6 @@
     "webstorm-disable-index": "^1.1.2"
   },
   "ci": {
-    "version": "6, 7"
+    "version": "6, 8"
   }
 }
