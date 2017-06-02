@@ -3,6 +3,7 @@
 module.exports = {
   write: true,
   prefix: '^',
+  plugin: 'autod-egg',
   test: [
     'test',
     'benchmark',
