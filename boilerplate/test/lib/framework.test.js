@@ -19,9 +19,9 @@ describe('test/lib/framework.test.js', () => {
 
   it('should GET /', () => {
     return request(app.callback())
-    .get('/')
-    .expect('framework-example_123456')
-    .expect(200);
+      .get('/')
+      .expect('framework-example_123456')
+      .expect(200);
   });
 });
 
