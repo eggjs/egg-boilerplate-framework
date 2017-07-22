@@ -39,5 +39,11 @@
     "egg", "egg-framework"
   ],
   "author": "{{author}}",
+  "files": [
+    "app",
+    "config",
+    "lib",
+    "index.js"
+  ],
   "license": "MIT"
 }
