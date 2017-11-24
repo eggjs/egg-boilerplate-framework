@@ -1,5 +1,7 @@
 'use strict';
 
 module.exports = app => {
-  app.get('/', 'home');
+  const { router, controller } = app;
+
+  router.get('/', controller.home.index);
 };
