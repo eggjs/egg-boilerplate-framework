@@ -1,24 +1,23 @@
 'use strict';
 
-const request = require('supertest');
-const mm = require('egg-mock');
+const mock = require('egg-mock');
 
-describe('test/lib/framework.test.js', () => {
+describe('test/framework.test.js', () => {
   let app;
   before(() => {
-    app = mm.app({
+    app = mock.app({
       baseDir: 'example',
-      customEgg: true,
+      framework: true,
     });
     return app.ready();
   });
 
   after(() => app.close());
 
-  afterEach(mm.restore);
+  afterEach(mock.restore);
 
   it('should GET /', () => {
-    return request(app.callback())
+    return app.httpRequest()
       .get('/')
       .expect('framework-example_123456')
       .expect(200);
