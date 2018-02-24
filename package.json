@@ -24,13 +24,14 @@
   },
   "devDependencies": {
     "autod": "^3.0.1",
-    "egg-ci": "^1.1.0",
-    "egg-init": "^1.12.0",
-    "eslint": "^4.11.0",
-    "eslint-config-egg": "^5.1.1",
-    "npminstall": "^2.11.2",
+    "egg-ci": "^1.8.0",
+    "egg-init": "^1.13.0",
+    "eslint": "^4.18.1",
+    "eslint-config-egg": "^7.0.0",
+    "npminstall": "^3.3.0",
     "webstorm-disable-index": "^1.2.0"
   },
+  "eslintIgnore": [ "coverage", "dist" ],
   "ci": {
     "version": "8, 9"
   }
