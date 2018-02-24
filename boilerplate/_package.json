@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "{{description}}",
   "dependencies": {
-    "egg": "^2.0.0"
+    "egg": "^2.3.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.0.0",
-    "egg-bin": "^4.3.0",
+    "egg-bin": "^4.4.0",
     "egg-ci": "^1.8.0",
-    "egg-mock": "^3.13.0",
-    "eslint": "^4.11.0",
-    "eslint-config-egg": "^5.1.0",
+    "egg-mock": "^3.14.0",
+    "eslint": "^4.18.0",
+    "eslint-config-egg": "^7.0.0",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
@@ -44,5 +44,6 @@
     "lib",
     "index.js"
   ],
+  "eslintIgnore": [ "coverage", "dist" ],
   "license": "MIT"
 }
