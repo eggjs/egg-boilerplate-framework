@@ -12,11 +12,11 @@ describe('test/framework.test.js', () => {
     return app.ready();
   });
 
-  after(() => app.close());
+  after(() => app && app.close());
 
   afterEach(mock.restore);
 
-  it('should GET /', () => {
+  it('should GET /', async () => {
     return app.httpRequest()
       .get('/')
       .expect('framework-example_123456')
