@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-framework",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "boilerplate for egg framework",
   "scripts": {
     "autod": "autod",
@@ -19,9 +19,7 @@
     "url": "git@github.com:eggjs/egg-boilerplate-framework.git"
   },
   "author": "TZ <atian25@qq.com>",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "autod": "^3.1.0",
     "egg-ci": "^1.15.0",
@@ -30,7 +28,10 @@
     "eslint-config-egg": "^8.0.1",
     "npminstall": "^3.27.0"
   },
-  "eslintIgnore": [ "coverage", "dist" ],
+  "eslintIgnore": [
+    "coverage",
+    "dist"
+  ],
   "ci": {
     "version": "10, 12",
     "type": "github",

@@ -1,4 +1,13 @@
 
+2.1.0 / 2020-07-03
+==================
+
+**features**
+  * [[`cbada9a`](http://github.com/eggjs/egg-boilerplate-framework/commit/cbada9aa9ed69b230f6b6677a567f686246714a5)] - feat: update ci (#18) (TZ | 天猪 <<atian25@qq.com>>)
+
+**others**
+  * [[`0931082`](http://github.com/eggjs/egg-boilerplate-framework/commit/0931082ef0ac80f37432313c36ab915be3250423)] - chore: update travis.yml (#17) (TZ | 天猪 <<atian25@qq.com>>)
+
 2.0.1 / 2018-02-24
 ==================
 
