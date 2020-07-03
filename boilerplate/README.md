@@ -9,15 +9,16 @@ $ npm install
 $ npm test
 ```
 
-publish your framework to npm, then change app's dependencies:
+publish your framework to npm, then change app's framework config:
 
 ```js
 // {app_root}/index.js
-require('{{name}}').startCluster({
-  baseDir: __dirname,
-  // port: 7001, // default to 7001
-});
-
+{
+  "name": "egg-showcase",
+  "egg": {
+    "framework": "yadan"
+  }
+}
 ```
 
 ## Questions & Suggestions

@@ -3,32 +3,32 @@
   "version": "1.0.0",
   "description": "{{description}}",
   "dependencies": {
-    "egg": "^2.3.0"
+    "egg": "^2"
   },
   "devDependencies": {
-    "autod": "^3.0.1",
-    "autod-egg": "^1.0.0",
-    "egg-bin": "^4.4.0",
-    "egg-ci": "^1.8.0",
-    "egg-mock": "^3.14.0",
-    "eslint": "^4.18.0",
-    "eslint-config-egg": "^7.0.0",
-    "webstorm-disable-index": "^1.2.0"
+    "autod": "^3",
+    "autod-egg": "^1",
+    "egg-bin": "^4",
+    "egg-ci": "^1",
+    "egg-mock": "^4",
+    "eslint": "^7",
+    "eslint-config-egg": "^8.0.0"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=12.0.0"
   },
   "scripts": {
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
-    "lint": "eslint .",
+    "lint": "eslint . --resolve-plugins-relative-to .",
     "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
     "autod": "autod",
     "pkgfiles": "egg-bin pkgfiles"
   },
   "ci": {
-    "version": "8, 9"
+    "version": "12",
+    "type": "github"
   },
   "repository": {
     "type": "git",
@@ -42,6 +42,8 @@
     "app",
     "config",
     "lib",
+    "app.js",
+    "agent.js",
     "index.js"
   ],
   "eslintIgnore": [ "coverage", "dist" ],

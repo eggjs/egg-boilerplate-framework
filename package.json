@@ -23,16 +23,19 @@
 
   },
   "devDependencies": {
-    "autod": "^3.0.1",
-    "egg-ci": "^1.8.0",
-    "egg-init": "^1.13.0",
-    "eslint": "^4.18.1",
-    "eslint-config-egg": "^7.0.0",
-    "npminstall": "^3.3.0",
-    "webstorm-disable-index": "^1.2.0"
+    "autod": "^3.1.0",
+    "egg-ci": "^1.15.0",
+    "egg-init": "^1.17.2",
+    "eslint": "^7.3.1",
+    "eslint-config-egg": "^8.0.1",
+    "npminstall": "^3.27.0"
   },
   "eslintIgnore": [ "coverage", "dist" ],
   "ci": {
-    "version": "8, 9"
+    "version": "10, 12",
+    "type": "github",
+    "os": {
+      "github": "ubuntu, macos"
+    }
   }
 }
